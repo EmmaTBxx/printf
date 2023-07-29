@@ -60,9 +60,9 @@ width = get_width(format, &i, list);
 
 precision = get_precision(format, &i, list);
 
-size = get_size(format, &i)
-				
-				++i;
+size = get_size(format, &i);
+
+++i;
 
 printed = handle_print(format, &i, list, buffer,
 					
